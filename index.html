@@ -17,7 +17,7 @@
       .up {
         height: 300px;
         width: 100%;
-        border: 2px solid red;
+        /* border: 2px solid red; */
       }
 
       
@@ -25,7 +25,7 @@
         display: flex;
         height: 400px;
         width: 100%;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         justify-content: space-between;
         padding-right: 40px;
         padding-left: 40px;
@@ -66,7 +66,7 @@
         padding-left: 20px;
         text-align: center;
         height: 400px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
 
       }
 
@@ -84,13 +84,18 @@
       }
 
       .right {
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 60%;
+      }
+
+      #features .right img {
+        width: fit-content;
+        height: fit-content;
       }
 
       .left {
         display: flex;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 50%;
         flex-direction: column;
         align-items: center;
@@ -140,12 +145,8 @@
         margin-bottom: 30px;
       }
 
-      #features .right img {
-        height: 100%;
-        width: 100%;
-      }
 
-      @media screen and (max-width: 790px) {
+      @media screen and (max-width: 840px) {
         header {
           flex-direction: column;
           text-align: center;
@@ -177,14 +178,11 @@
 
         .right,
         .left {
-          min-width: 100%;
+          min-width: 50%;
           text-align: center;
           
         }
 
-        #features .left {
-         height: 700px;
-        }
 
         #features .left div hr {
           margin-left: 10px;
@@ -202,6 +200,12 @@
         #features .left h2 {
           padding-left: 40px;
         }
+
+        #features .right img {
+          width: 30px;
+        }
+
+
       }
 
       @media only screen and (max-width: 620px) {
@@ -230,7 +234,7 @@
             display: flex;
             padding: 20px 30px;
             justify-content: space-between;
-            border: 1px solid red;
+            /* border: 1px solid red; */
           }
           nav {
             display: flex;
@@ -260,13 +264,13 @@
       <section id="home">
         <style>
           #home {
-            display: flex;
+             display: flex;
             align-items: center;
           }
 
           .hero-wrapper {
             width: 50%;
-            border: 3px solid red;
+            /* border: 3px solid red; */
             overflow: hidden;
           }
 
